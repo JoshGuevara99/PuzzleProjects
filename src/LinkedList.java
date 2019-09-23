@@ -1,10 +1,10 @@
 
-public class LinkedList {
+public class LinkedList<T> {
 	private static Node head;
 	private static Node tail;
 	private static Node current;
 	
-	public LinkedList()
+	public LinkedList ()
 	{
 		head = null;
 		tail = null;
@@ -62,6 +62,7 @@ public class LinkedList {
 			{
 				done = true;
 			}
+			System.out.println(current.getData());
 			current = current.getNext();
 		}
 			

@@ -1,7 +1,7 @@
-
-public class Node {
+import java.util.*;
+public class Node<T> {
 	
-	private int data;
+	private  int data;
 	private Node next;
 	
 	public Node(int data)
@@ -13,7 +13,7 @@ public class Node {
 	
 	public int getData()
 	{
-		System.out.println(data);
+		
 		return data;
 	}
 	
