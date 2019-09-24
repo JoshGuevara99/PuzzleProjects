@@ -87,6 +87,7 @@ private static binaryNode root;
 		test.insert(fourth);
 		test.insert(fifth);
 		
+	
 		
 		System.out.println(test.getRoot().getNumber());
 		System.out.println(test.getRoot().getLeft().getNumber());
