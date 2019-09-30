@@ -1,5 +1,5 @@
 
-public class insertionSort {
+public class recursiveSort {
 	
 	private int[] theArray;
 	public insertionSort(int[] n)
@@ -45,7 +45,7 @@ public class insertionSort {
 		test[1] = 35;
 		test[2] = 14;
 		test[3] = 55;
-		test[4] = 9;
+		test[4] = 66;
 		sort(test);
 		
 		for(int i = 0; i < test.length; i++)
