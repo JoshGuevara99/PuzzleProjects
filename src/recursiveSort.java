@@ -2,7 +2,7 @@
 public class recursiveSort {
 	
 	private int[] theArray;
-	public insertionSort(int[] n)
+	public recursiveSort(int[] n)
 	{
 		theArray = n;
 		sort(theArray);

@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 
-public class binarySearchTree {
+public class binaryTree {
 	
 private static binaryNode root;
 	
-	
-	public binarySearchTree()
+	//Construcs an empty binaryTree
+	public binaryTree()
 	{
 		root = null;
 		
@@ -74,7 +74,7 @@ private static binaryNode root;
 	
 	public static void main (String[]args)
 	{
-		binarySearchTree test = new binarySearchTree();
+		binaryTree test = new binaryTree();
 		
 		binaryNode first = new binaryNode(15);
 		binaryNode second = new binaryNode(10);
